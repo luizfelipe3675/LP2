@@ -17,7 +17,7 @@ class Hello2DFrame extends JFrame {
                 }
             }
         );
-        this.setTitle("EU ESTOU COM MUITA FOME !!!!!");
+        this.setTitle("PAC-MAN-Hamburguer");
         this.setSize(500, 500);
         this.setVisible(true);
         this.repaint();
@@ -39,11 +39,14 @@ class Hello2DFrame extends JFrame {
         g2d.fillOval(w/2-150,h/2-80,300,40);
         g2d.fillOval(w/2-150,h/2+10,300,40);
         g2d.setPaint(Color.yellow);
-        g2d.fillOval(w/2-450,h/2-160,300,300);
-        int[] x ={w/2,w/2,w/2};
-        int[] y ={h/2,h/2,h/2};
+        g2d.fillArc(w/2-360,h/2-145,250,250,30,290);
+        int[] y ={h/2-30,h/2-30,h/2+50};
+	int[] x ={w/2+200,w/2+300,w/2+250};
         g2d.setPaint(Color.white);
         g2d.fillPolygon(x,y,3);
+	g2d.setPaint(Color.black);
+	g2d.fillOval(w/2-280,h/2-80,35,35);
+	
 
     }
 }
