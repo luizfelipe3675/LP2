@@ -1,4 +1,4 @@
-package projetoLP2.model;
+package Hello2DModel;
 
 import java.awt.Graphics2D;
 
