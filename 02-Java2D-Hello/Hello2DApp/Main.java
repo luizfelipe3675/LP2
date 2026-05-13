@@ -1,9 +1,9 @@
-package projetoLP2.app;
+package Hello2DApp;
 
 import java.util.*;
 import java.awt.Color;
-import 02-Java2D-Hello.Hello2DModel.*;
-import 02-Java2D-Hello.Hello2DView.Hello2DFrame;
+import Hello2DModel.*;
+import Hello2DView.Hello2DFrame;
 
 public class Main {
     public static void main(String[] args) {
@@ -54,7 +54,7 @@ public class Main {
                         xs[j] = sc.nextInt(); ys[j] = sc.nextInt();
                     }
                     System.out.print("espessura R G B preenchido(true/false) rotacao: ");
-                    int e = sc.nextInt(),-r = sc.nextInt(), g = sc.nextInt(), b = sc.nextInt();
+                    int e = sc.nextInt(),r = sc.nextInt(), g = sc.nextInt(), b = sc.nextInt();
                     boolean fill = sc.nextBoolean();
                     double graus = sc.nextDouble();
                     figuras.add(new Poligono(xs, ys, pontos, new Color(r, g, b), fill, graus, e));
