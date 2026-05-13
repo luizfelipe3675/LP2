@@ -1,8 +1,8 @@
-package projetoLP2.view;
+package Hello2DView;
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
-import projetoLP2.model.Figura;
+import Hello2DModel.Figura;
 public class Hello2DFrame extends JFrame { 
 	public Hello2DFrame (Figura[] lista) {
 		setTitle("Desenhos 2D");
