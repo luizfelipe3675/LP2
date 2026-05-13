@@ -1,6 +1,6 @@
 package Hello2DModel;
 import java.awt.*;
-import java.awt.geom.AffineTransform;
+
 public class Linha implements Figura{
 	private int xi,yi,xf,yf,e,r,g,b;
 	public Linha(int xi,int yi,int xf,int yf,int e,int r,int g,int b){
@@ -19,11 +19,11 @@ public class Linha implements Figura{
 	}
 	@Override
 	public void desenhar(Graphics2D g2d){
-		AffineTransform old =g2d.getTransform();
+		
 		g2d.setColor(new Color(r,g,b));
 		g2d.setStroke(new BasicStroke(e));
 		g2d.drawLine(xi,yi,xf,yf);
-		g2d.setTransform(old);
+		
 	}
 	public void print(){
 		System.out.printf("Linha com espessura(%d) com cor RGB(%d,%d,%d) com ponto inicial(%d,%d) e ponto final(%d,%d) \n",e,r,g,b,xi,yi,xf,yf);
