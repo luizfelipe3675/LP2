@@ -2,8 +2,8 @@ package projetoLP2.app;
 
 import java.util.*;
 import java.awt.Color;
-import projetoLP2.model.*;
-import projetoLP2.view.Hello2DFrame;
+import 02-Java2D-Hello.Hello2DModel.*;
+import 02-Java2D-Hello.Hello2DView.Hello2DFrame;
 
 public class Main {
     public static void main(String[] args) {
