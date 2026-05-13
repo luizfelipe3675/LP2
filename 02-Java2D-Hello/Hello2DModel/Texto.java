@@ -1,4 +1,4 @@
-package projetoLP2.model;
+package Hello2DModel;
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 public class Texto implements Figura{
